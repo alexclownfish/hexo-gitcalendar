@@ -129,8 +129,8 @@ const calendar = new Vue({
         }
     })
 
-    let githubapiurl = "https://githubapi.ryanchristian.dev/user/"+calendar.user
-
+    //let githubapiurl = "https://githubapi.ryanchristian.dev/user/"+calendar.user
+    let githubapiurl = "https://python-github-calendar-api.zfour.vercel.app/api/?"+calendar.user
     $(function () {
         $.ajax({
             //请求方式
